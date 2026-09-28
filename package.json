@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stitchhex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stitch digests and hex fingerprints for local integrity checks.",
+  "bin": {
+    "stitchhex": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stitchhex.git"
+  },
+  "homepage": "https://theworker02.github.io/stitchhex/",
+  "keywords": [
+    "stitch",
+    "hex",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
